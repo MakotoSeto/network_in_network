@@ -52,6 +52,6 @@ if __name__ == '__main__':
     optimizer = nutszebra_optimizer.OptimizerNetworkInNetwork(model, lr=lr)
     args['model'] = model
     args['optimizer'] = optimizer
-    args['da'] = da.DataAugmentationNormalizeSmall
+    args['da'] = da.DataAugmentationCifar10NormalizeSmall
     main = nutszebra_cifar10.TrainCifar10(**args)
     main.run()

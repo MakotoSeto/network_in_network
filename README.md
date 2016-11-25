@@ -26,6 +26,9 @@ Test: Pictures are resized to 32x32, then they are normalized locally. Single im
 | my implementation    | 9     | 90.10               |
 | NIN [[1]][Paper]      | 9     | 91.19              |
 
+<img src="https://github.com/nutszebra/network_in_network/blob/master/loss.jpg" alt="loss" title="loss">
+<img src="https://github.com/nutszebra/network_in_network/blob/master/accuracy.jpg" alt="total accuracy" title="total accuracy">
+
 # References
 Network In Network [[1]][Paper]
 

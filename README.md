@@ -23,8 +23,8 @@ Test: Pictures are resized to 32x32, then they are normalized locally. Single im
 
 | network              | depth | total accuracy (%) |
 |:---------------------|-------|-------------------:|
-| my implementation    | 9     | soon               |
-| NIN[[1]][Paper]      | 9     | 91.19              |
+| my implementation    | 9     | 90.10               |
+| NIN [[1]][Paper]      | 9     | 91.19              |
 
 # References
 Network In Network [[1]][Paper]

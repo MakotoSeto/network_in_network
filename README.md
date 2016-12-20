@@ -14,10 +14,13 @@ Implementation of NIN(Network In Network) by chainer
 
 
 # Details about my implementation
-All hyperparameters and network architecture are the same as in [[1]][Paper] except for data-augmentation.  
+
 * Data augmentation  
 Train: Pictures are randomly resized in the range of [32, 36], then 32x32 patches are extracted randomly and are normalized locally. Horizontal flipping is applied with 0.5 probability.  
 Test: Pictures are resized to 32x32, then they are normalized locally. Single image test is used to calculate total accuracy.  
+* Network detail  
+https://gist.github.com/mavenlin/e56253735ef32c3c296d
+
 
 # Cifar10 result
 
